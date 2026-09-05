@@ -16,17 +16,15 @@ export const site = {
    * WhatsApp number in full international format WITHOUT the leading "+".
    * e.g. India "919876543210". This is a PLACEHOLDER — replace it.
    */
-  whatsappNumber: '910000000000',
+  whatsappNumber: '919600258538',
 
-  /** Phone number for the "Call Now" buttons. PLACEHOLDER — replace it. */
-  phoneNumber: '+910000000000',
+  /** Phone number for the "Call Now" buttons. */
+  phoneNumber: '+91 96002 58538',
 
   partner: {
     name: 'Vintage Stay',
-    /** Partner enquiries reuse WhatsApp with a different pre-filled note. */
-    whatsappNumber: '910000000000',
-    /** Phone number for Vintage Stay. PLACEHOLDER — replace it. */
-    phoneNumber: '+910000000000',
+    whatsappNumber: '919600258538',
+    phoneNumber: '+91 96002 58538',
   },
 } as const
 
@@ -43,8 +41,8 @@ export const vintageSite = {
   /** Set to a number for fixed pricing, or null to show "Contact for Price". */
   pricePerNight: null as number | null,
   priceNote: 'Contact for Price',
-  whatsappNumber: '910000000000', // PLACEHOLDER — replace with real number
-  phoneNumber: '+910000000000',   // PLACEHOLDER — replace with real number
+  whatsappNumber: '919600258538',
+  phoneNumber: '+91 96002 58538',
 
   description: [
     'Vintage Stay is a lovingly restored heritage homestay in the heart of Vattavada, offering an experience that blends rustic elegance with the raw beauty of the Western Ghats.',
