@@ -1,0 +1,14 @@
+[build]
+  command   = "pnpm run build"
+  publish   = "out"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# Redirect rules so Next.js page routes resolve correctly on Netlify.
+# The static export already generates /vintage-stay/index.html, so this
+# is mainly a safety net for any deep-link or refresh on an unknown path.
+[[redirects]]
+  from   = "/*"
+  to     = "/index.html"
+  status = 200
